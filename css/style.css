@@ -99,6 +99,17 @@ a{
     width: 3rem;
     height: 3rem;
 }
+
+.boxh2{
+    display: flex;
+    justify-content: space-between;
+    width: 120rem;
+    margin: 10rem 0;
+}
+.boxh2 img{
+    width: 16rem;
+    height: 5rem;
+}
 /* content end */
 
 /* home page end */
