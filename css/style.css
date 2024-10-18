@@ -53,12 +53,14 @@ a{
     font-size: 1.6rem;
 }
 .enter{
-    width: 220px;
-    height: 4rem;
-    border-radius: 2rem;
+    width: 14rem;
+    height: 5rem;
+    border-radius: 5rem;
     background-color: #F25822;
     color: #fff;
-    padding: auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 /* header end */
@@ -113,3 +115,24 @@ a{
 /* content end */
 
 /* home page end */
+
+/* page 2 start */
+.pagetwotop{
+    height: 54rem;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.pagetwoleft{
+    width: 51.5rem;
+    height: 28.9rem;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pagetwo .pagetwoleft h1{
+font-size: 4.5rem;
+}
+/* .pagetwo .pagetwoleft p */
+/* page 2 end */
