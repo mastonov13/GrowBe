@@ -134,5 +134,122 @@ a{
 .pagetwo .pagetwoleft h1{
 font-size: 4.5rem;
 }
+.pagetwobottom {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 49.1rem;
+}
+.imgs{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagetwobottom .card1{
+    width: 33.1rem;
+    height: 22.6rem;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 2rem;
+    margin-right: 2rem;
+}
+.pagetwobottom .card1 h1{
+    font-size: 2.4rem;
+}
+
+.pagetwobottom .card1 a{
+font-size: 1.1rem;
+}
+.pagetwobottom .card1 .imgs{
+    background: #F2582240;
+}
+
+.pagetwobottom .card2{
+    width: 37rem;
+    height: 29.1rem;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    box-shadow: 2rem 2rem 10rem .1rem rgb(232, 226, 226);
+    margin-right: 10rem;
+}
+.pagetwobottom .card2 h1{
+    font-size: 2.4rem;
+}
+
+.pagetwobottom .card2 a{
+font-size: 1.1rem;
+}
+.pagetwobottom .card2 .imgs{
+    background: #14921147;
+}
+
+.pagetwobottom .card3{
+    width: 33.1rem;
+    height: 22.6rem;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 2rem;
+}
+.pagetwobottom .card3 h1{
+    font-size: 2.4rem;
+}
+
+.pagetwobottom .card3 a{
+font-size: 1.1rem;
+}
+.pagetwobottom .card3 .imgs{
+    background: #FFC700;
+}
 /* .pagetwo .pagetwoleft p */
 /* page 2 end */
+
+
+/* page three start */
+
+.threetop{
+    width: 68.2rem;
+    height: 12.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    text-align: center;
+    
+}
+.threetop h1{
+    font-size: 4.5rem;
+}
+
+.threebottom{
+    display: flex;
+    flex-wrap: nowrap;
+    /* justify-content: space-evenly; */
+}
+.cardthree{
+    width: 37rem;
+    height: 54.9rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0 1rem 2rem 1rem;
+}
+.cardthree img
+{
+    width: 37rem;
+    height: 27rem;
+}
+/* page three end */
