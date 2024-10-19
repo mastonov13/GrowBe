@@ -61,6 +61,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
     
 }
 /* header end */
@@ -210,7 +211,7 @@ font-size: 1.1rem;
 .pagetwobottom .card3 .imgs{
     background: #FFC700;
 }
-/* .pagetwo .pagetwoleft p */
+
 /* page 2 end */
 
 
@@ -253,3 +254,173 @@ font-size: 1.1rem;
     height: 27rem;
 }
 /* page three end */
+
+
+/* page four start */
+.pagefour{
+    display: flex;
+    flex-wrap: nowrap;
+    margin:10rem 0;
+}
+.fourright{
+    width: 57rem;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 0 1rem 2rem 1rem;
+}
+.pagefour img{
+    width: 94.5rem;
+    height: 80rem;
+    /* border: .2rem solid red; */
+}
+.fourimg{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourimg img{
+    width: 4rem;
+    height: 4rem;
+}
+.box .fourimg{
+    background: #FCD5C8;
+}
+.box{
+    width: 49.1rem;
+    height: 10rem;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.fcontent{
+    box-sizing: border-box;
+    width: 36.2rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box2 .fourimg{
+    background: #BDE0BC;
+}
+.box2{
+    width: 57rem;
+    height: 13.4rem;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1rem 2rem;
+    align-items: center;
+    box-shadow: .5rem .5rem 1rem 1rem rgb(238, 235, 235);
+}
+
+.box3 .fourimg{
+    background: #FFF3C9;
+}
+.box3{
+    width: 49.1rem;
+    height: 10rem;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.fourrightboxs{
+    width: 57rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.box, .box3{
+    margin-left: 1.85rem;
+}
+/* page four end */
+
+
+/* page five start */
+.fivetop{
+    width: 117rem;
+    height: 20rem;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fivetop .dotbox{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+.dotbox{
+    background-color: #F3602D;
+}
+.dotbox2{
+    background-color: #149211;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+.dotbox3{
+    background-color: #FFC700;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+.bigbox{
+    width: 15.6rem;
+    height: 11.5rem;
+    font-size: 1.8rem;
+    color: #666666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bigbox h1{
+    font-size: 7rem;
+}
+
+.fivebottom .fbottomleft{
+    width: 58rem;
+    font-size: 1.6rem;
+}
+.fbottomleft h1{
+    font-size: 4.5rem;
+}
+.inputbox{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 5rem;
+    justify-content: space-between  ;
+}
+.emailurl{
+    width: 40rem;
+    height: 5rem;
+    border-radius: 5rem;
+    background: #EEEEEE;
+}
+.url{
+    width: 19rem;
+    background: #EEEEEE;
+    border: none;
+    height: 5rem;
+    padding-left: 2rem;
+    margin-right: 0;
+}
+.email{
+    background: #EEEEEE;
+    border: none;
+    height: 5rem;
+    border-left: .2rem solid black;
+    padding-left: 2rem;
+    margin-left: 0;
+}
+/* page five end */
