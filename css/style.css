@@ -8,6 +8,9 @@ html{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+body{
+    padding-left: 5rem;
+}
 ul{
     list-style: none;
 }
@@ -405,22 +408,35 @@ font-size: 1.1rem;
     width: 40rem;
     height: 5rem;
     border-radius: 5rem;
+    /* border: 2px solid red; */
     background: #EEEEEE;
 }
 .url{
-    width: 19rem;
+    width: 18rem;
     background: #EEEEEE;
     border: none;
-    height: 5rem;
+    height: 4rem;
+    border-radius: 5rem;
     padding-left: 2rem;
     margin-right: 0;
 }
 .email{
     background: #EEEEEE;
     border: none;
-    height: 5rem;
+    height: 4.5rem;
     border-left: .2rem solid black;
     padding-left: 2rem;
     margin-left: 0;
+    width: 19rem;
+}
+.fivebottom img{
+    width: 79.6rem;
+    height: 55.8rem;
+}
+.fivebottom{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 55.8rem;
+    align-items: center;
 }
 /* page five end */
