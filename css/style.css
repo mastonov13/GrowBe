@@ -440,3 +440,82 @@ font-size: 1.1rem;
     align-items: center;
 }
 /* page five end */
+
+/* our plan start */
+.plan{
+    background-color: #fafafa;
+    height: 91.2rem;    
+}
+.boxplans{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.plancard , .plancard2{
+    width: 37rem;
+    height: 51.4rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.6rem;
+    align-items: center;
+    margin: 2rem;
+}
+
+.plancard2{
+    height: 57rem;
+}
+.son{
+    font-size: 7rem;
+}
+.btn2 , .btn2c{
+    width: 20rem;
+    height: 5rem;
+    border-radius: 5rem;
+    background: #F2582240;
+    color: #F3602D;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn2c{
+    background-color: #F3602D; 
+    color: #fff;
+}
+
+.nameplane{
+    display: flex;
+    font-size: 1.6rem;
+    flex-direction: column;
+    text-align: center;
+}
+.nameplane h1{
+    font-size: 4.5rem;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* our plan end */
+
+/* visit card start */
+.visit-card{
+    width: 27rem;
+    height: 33.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: .01rem rgb(243, 243, 243) solid;
+    padding: 3rem 0 ;
+}
+.visit-card img{
+    width: 13rem;
+    height: 13rem;
+}
+/* visit card end */
