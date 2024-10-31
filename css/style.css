@@ -513,9 +513,29 @@ font-size: 1.1rem;
     align-items: center;
     border: .01rem rgb(243, 243, 243) solid;
     padding: 3rem 0 ;
+    margin: 2rem;
 }
 .visit-card img{
     width: 13rem;
     height: 13rem;
+}
+.setbox{
+    width: 9.7rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: #aaaaaa;
+    align-items: center;
+}
+.setbox p{
+    font-size: 1.4rem;
+}
+.setbox .fa-facebook{
+    color: #F25822;
+}
+
+.visits{
+    display: flex;
+    flex-wrap: nowrap;
 }
 /* visit card end */
