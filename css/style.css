@@ -10,6 +10,9 @@ html{
 }
 body{
     padding-left: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 ul{
     list-style: none;
@@ -22,6 +25,11 @@ a{
 
 
 /* header start */
+.homepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
 .header{
     display: flex;
     flex-wrap: nowrap;
@@ -215,6 +223,12 @@ font-size: 1.1rem;
     background: #FFC700;
 }
 
+.pagetwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
 /* page 2 end */
 
 
@@ -256,6 +270,11 @@ font-size: 1.1rem;
     width: 37rem;
     height: 27rem;
 }
+.pagethree{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
 /* page three end */
 
 
@@ -264,6 +283,7 @@ font-size: 1.1rem;
     display: flex;
     flex-wrap: nowrap;
     margin:10rem 0;
+    justify-content: center;
 }
 .fourright{
     width: 57rem;
@@ -349,6 +369,11 @@ font-size: 1.1rem;
 
 
 /* page five start */
+.fivepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
 .fivetop{
     width: 117rem;
     height: 20rem;
@@ -444,7 +469,10 @@ font-size: 1.1rem;
 /* our plan start */
 .plan{
     background-color: #fafafa;
-    height: 91.2rem;    
+    height: 91.2rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
 }
 .boxplans{
     display: flex;
@@ -515,6 +543,11 @@ font-size: 1.1rem;
     padding: 3rem 0 ;
     margin: 2rem;
 }
+.visit-theme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .visit-card img{
     width: 13rem;
     height: 13rem;
@@ -537,5 +570,39 @@ font-size: 1.1rem;
 .visits{
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
 }
 /* visit card end */
+
+/* our clients start */
+.clientsbox{
+    width: 57rem;
+    height: 27.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: .1rem solid rgb(231, 229, 229);
+    margin: 2rem;
+    padding: 1rem 0;
+    font-size: 1.4rem;
+}
+.clientsbox img{
+    width: 10rem;
+    height: 10rem;
+}
+.cleintcard{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.cleinttheme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+/* .ourcleints{
+    display: flex;
+    justify-content: center;
+} */
+/* our clients end */
